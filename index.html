@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="ssportalapp">
+
+<head>
+    <meta charset="UTF-8">
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple AngularJs App</title>
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href='./css/style.css'>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container" data-ng-include="'./Modules/Header/header.html'">
+        </div>
+    </nav>
+    <div class="container">
+        <div ui-view style="padding-top:60px;"></div>
+    </div>
+    <script src="./bower_components/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./bower_components/angular/angular.js"></script>
+    <script src="./bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="./bower_components/oclazyload/dist/ocLazyLoad.min.js"></script>
+
+    <script src="./Modules/ssportalapp.config.js"></script>
+    <script src="./Modules/Header/header.js"></script>
+    <script src="./common/common.factory.js"></script>
+
+</body>
+
+</html>

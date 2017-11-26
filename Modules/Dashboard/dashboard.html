@@ -1,0 +1,56 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>My Dashboard</h2>
+            </div>
+            <div class="col-md-8">
+                <div class="space-between margin-top-20 margin-bottom-10">
+                    <div>
+                        <a class="link-big" href="javascript:void(0)">
+                            Manage Portal
+                        </a>
+                    </div>
+                    <div>
+                        <a class="link-big" href="javascript:void(0)">
+                            Manage External Users
+                        </a>
+                    </div>
+                    <div>
+                        <a class="link-big" href="javascript:void(0)">
+                            User Settings
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Client Name</th>
+                            <th>Position</th>
+                            <th>Assignment Id</th>
+                            <th>IsActive</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-ng-repeat="a in ctrl.assignments">
+                            <td>
+                                <a href="javascript:void(0);">
+                                    {{a.id}}
+                                </a>
+                            </td>
+                            <td>{{a.clientname}}</td>
+                            <td>{{a.job}}</td>
+                            <td>{{a.questassignmentid}}</td>
+                            <td>{{a.isActive}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

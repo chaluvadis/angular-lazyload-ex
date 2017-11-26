@@ -1,0 +1,21 @@
+[ui-view].ng-enter,
+[ui-view].na-leave {
+    position: absolute;
+    left: 0;
+    right: 0;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+[ui-view].ng-enter,
+[ui-view].ng-leave-inactive {
+    opacity: 0;
+}
+
+[ui-view].ng-enter-active {
+    opacity: 1;
+}
+
+.link-big {
+    font-size: 16px;
+}

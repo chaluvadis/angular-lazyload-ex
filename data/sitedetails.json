@@ -1,0 +1,343 @@
+{
+    "sitedetails": [{
+            "id": 943,
+            "clientname": "Dynamic Optimization Planner",
+            "assignmentguid": "2acc0ee9-7ede-43f2-8aeb-6c92dfe44d49",
+            "questassignmentid": "58768-285",
+            "isActive": true,
+            "tabs": [{
+                    "tabid": 100,
+                    "title": "introduction",
+                    "childtabs": []
+                },
+                {
+                    "tabid": 200,
+                    "title": "contacts",
+                    "childtabs": [
+                        "profile",
+                        "external"
+                    ]
+                },
+                {
+                    "tabid": 300,
+                    "title": "profiles",
+                    "childtabs": [
+                        "internal",
+                        "quest"
+                    ]
+                },
+                {
+                    "tabid": 400,
+                    "title": "events",
+                    "childtabs": []
+                }
+            ]
+        },
+        {
+            "id": 624,
+            "clientname": "Customer Optimization Orchestrator",
+            "assignmentguid": "a369001e-e5eb-4a8f-91b9-683a44c3b6d0",
+            "questassignmentid": "84877-422",
+            "isActive": true,
+            "tabs": [{
+                    "tabid": 100,
+                    "title": "introduction",
+                    "childtabs": []
+                },
+                {
+                    "tabid": 200,
+                    "title": "contacts",
+                    "childtabs": [
+                        "profile",
+                        "external"
+                    ]
+                },
+                {
+                    "tabid": 300,
+                    "title": "profiles",
+                    "childtabs": [
+                        "internal",
+                        "quest"
+                    ]
+                },
+                {
+                    "tabid": 400,
+                    "title": "events",
+                    "childtabs": []
+                }
+            ]
+        },
+        {
+            "id": 597,
+            "clientname": "Direct Research Agent",
+            "assignmentguid": "3a5da8eb-3590-4879-ab29-133c6ff61352",
+            "questassignmentid": "65137-976",
+            "isActive": true,
+            "tabs": [{
+                    "tabid": 100,
+                    "title": "introduction",
+                    "childtabs": []
+                },
+                {
+                    "tabid": 200,
+                    "title": "contacts",
+                    "childtabs": [
+                        "profile",
+                        "external"
+                    ]
+                },
+                {
+                    "tabid": 300,
+                    "title": "profiles",
+                    "childtabs": [
+                        "internal",
+                        "quest"
+                    ]
+                },
+                {
+                    "tabid": 400,
+                    "title": "events",
+                    "childtabs": []
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "clientname": "Corporate Factors Coordinator",
+            "assignmentguid": "a68dced7-4d03-423a-be89-05679b2c1583",
+            "questassignmentid": "83733-729",
+            "isActive": true,
+            "tabs": [{
+                    "tabid": 100,
+                    "title": "introduction",
+                    "childtabs": []
+                },
+                {
+                    "tabid": 200,
+                    "title": "contacts",
+                    "childtabs": [
+                        "profile",
+                        "external"
+                    ]
+                },
+                {
+                    "tabid": 300,
+                    "title": "profiles",
+                    "childtabs": [
+                        "internal",
+                        "quest"
+                    ]
+                },
+                {
+                    "tabid": 400,
+                    "title": "events",
+                    "childtabs": []
+                }
+            ]
+        },
+        {
+            "id": 862,
+            "clientname": "Corporate Quality Developer",
+            "assignmentguid": "2c3f10e5-005d-429a-9ca8-442e14a8ea7a",
+            "questassignmentid": "15439-757",
+            "isActive": true,
+            "tabs": [{
+                    "tabid": 100,
+                    "title": "introduction",
+                    "childtabs": []
+                },
+                {
+                    "tabid": 200,
+                    "title": "contacts",
+                    "childtabs": [
+                        "profile",
+                        "external"
+                    ]
+                },
+                {
+                    "tabid": 300,
+                    "title": "profiles",
+                    "childtabs": [
+                        "internal",
+                        "quest"
+                    ]
+                },
+                {
+                    "tabid": 400,
+                    "title": "events",
+                    "childtabs": []
+                }
+            ]
+        },
+        {
+            "id": 810,
+            "clientname": "Human Data Director",
+            "assignmentguid": "8748d64d-e8e3-4488-a3a3-9ac5178eb4ac",
+            "questassignmentid": "18817-544",
+            "isActive": true,
+            "tabs": [{
+                    "tabid": 100,
+                    "title": "introduction",
+                    "childtabs": []
+                },
+                {
+                    "tabid": 200,
+                    "title": "contacts",
+                    "childtabs": [
+                        "profile",
+                        "external"
+                    ]
+                },
+                {
+                    "tabid": 300,
+                    "title": "profiles",
+                    "childtabs": [
+                        "internal",
+                        "quest"
+                    ]
+                },
+                {
+                    "tabid": 400,
+                    "title": "events",
+                    "childtabs": []
+                }
+            ]
+        },
+        {
+            "id": 651,
+            "clientname": "Investor Mobility Specialist",
+            "assignmentguid": "d1e2a844-a2ca-4d5b-8425-993969f88591",
+            "questassignmentid": "78796-577",
+            "isActive": true,
+            "tabs": [{
+                    "tabid": 100,
+                    "title": "introduction",
+                    "childtabs": []
+                },
+                {
+                    "tabid": 200,
+                    "title": "contacts",
+                    "childtabs": [
+                        "profile",
+                        "external"
+                    ]
+                },
+                {
+                    "tabid": 300,
+                    "title": "profiles",
+                    "childtabs": [
+                        "internal",
+                        "quest"
+                    ]
+                },
+                {
+                    "tabid": 400,
+                    "title": "events",
+                    "childtabs": []
+                }
+            ]
+        },
+        {
+            "id": 730,
+            "clientname": "Investor Implementation Associate",
+            "assignmentguid": "8a5b8175-eae1-475c-acb0-6d62f30deeed",
+            "questassignmentid": "49955-165",
+            "isActive": true,
+            "tabs": [{
+                    "tabid": 100,
+                    "title": "introduction",
+                    "childtabs": []
+                },
+                {
+                    "tabid": 200,
+                    "title": "contacts",
+                    "childtabs": [
+                        "profile",
+                        "external"
+                    ]
+                },
+                {
+                    "tabid": 300,
+                    "title": "profiles",
+                    "childtabs": [
+                        "internal",
+                        "quest"
+                    ]
+                },
+                {
+                    "tabid": 400,
+                    "title": "events",
+                    "childtabs": []
+                }
+            ]
+        },
+        {
+            "id": 181,
+            "clientname": "Future Directives Assistant",
+            "assignmentguid": "a12d15d8-d617-4325-af16-a5f8f998437b",
+            "questassignmentid": "26974-195",
+            "isActive": true,
+            "tabs": [{
+                    "tabid": 100,
+                    "title": "introduction",
+                    "childtabs": []
+                },
+                {
+                    "tabid": 200,
+                    "title": "contacts",
+                    "childtabs": [
+                        "profile",
+                        "external"
+                    ]
+                },
+                {
+                    "tabid": 300,
+                    "title": "profiles",
+                    "childtabs": [
+                        "internal",
+                        "quest"
+                    ]
+                },
+                {
+                    "tabid": 400,
+                    "title": "events",
+                    "childtabs": []
+                }
+            ]
+        },
+        {
+            "id": 713,
+            "clientname": "Global Implementation Assistant",
+            "assignmentguid": "126581be-8d01-424d-9328-95d4dd3f3ece",
+            "questassignmentid": "19670-354",
+            "isActive": true,
+            "tabs": [{
+                    "tabid": 100,
+                    "title": "introduction",
+                    "childtabs": []
+                },
+                {
+                    "tabid": 200,
+                    "title": "contacts",
+                    "childtabs": [
+                        "profile",
+                        "external"
+                    ]
+                },
+                {
+                    "tabid": 300,
+                    "title": "profiles",
+                    "childtabs": [
+                        "internal",
+                        "quest"
+                    ]
+                },
+                {
+                    "tabid": 400,
+                    "title": "events",
+                    "childtabs": []
+                }
+            ]
+        }
+    ]
+}
