@@ -1,4 +1,4 @@
-#Angular Lazyload
+# Angular Lazyload
 This is a simple angular 1 js application with lazyload in mind.
 
 ## Running the application
