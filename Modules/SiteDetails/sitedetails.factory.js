@@ -11,8 +11,10 @@
         }
         return service;
 
-        function getAssignments() {
-            return $http.get('data/data.json').then(commonFactory.getData).catch(commonFactory.logError);
+        function getSiteDetails() {
+            return $http.get('data/sitedetails.json')
+                .then(commonFactory.getData)
+                .catch(commonFactory.logError);
         }
     }
 })();

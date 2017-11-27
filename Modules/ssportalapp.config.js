@@ -31,11 +31,12 @@
                                 .load(['../Modules/SiteDetails/sitedetails.css', '../Modules/SiteDetails/sitedetails.factory.js', '../Modules/SiteDetails/sitedetails.ctrl.js'])
                         }],
                         loadSiteDetails: ['loadSiteDetailFiles', '$injector', function(loadFiles, $injector) {
-                            var factory = $injector.get('dashboardFactory');
+                            var factory = $injector.get('sitedetailsFactory');
                             return factory.getSiteDetails();
                         }]
                     }
                 })
+
             $locationProvider.html5Mode(true);
             $urlRouterProvider.otherwise('/home');
         })

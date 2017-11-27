@@ -1,15 +1,14 @@
 (function() {
     'use strict';
-    angular.module('ssportalapp').controller('DashboardController', DashboardController);
-    DashboardController.$inject = ['$scope', 'dashboardFactory', 'loadAssignments'];
+    angular.module('ssportalapp').controller('sitedetailsController', sitedetailsController);
+    sitedetailsController.$inject = ['$scope', 'sitedetailsFactory', 'loadSiteDetails'];
 
-    function DashboardController($scope, dashboardFactory, loadAssignments) {
+    function sitedetailsController($scope, sitedetailsFactory, loadSiteDetails) {
         var scope = this;
-        console.log('loadAssignments', loadAssignments);
 
-        function getDashboardAssignments() {
-            scope.assignments = loadAssignments.assignments;
+        function getSiteDetails() {
+            scope.sitedetails = loadSiteDetails.sitedetails;
         }
-        getDashboardAssignments();
+        getSiteDetails();
     }
 })();

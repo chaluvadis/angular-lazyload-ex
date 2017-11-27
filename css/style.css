@@ -1,3 +1,5 @@
+/*main app css*/
+
 [ui-view].ng-enter,
 [ui-view].na-leave {
     position: absolute;
