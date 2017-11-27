@@ -1,5 +1,5 @@
 (function() {
-    angular.module('ssportalapp', ['ui.router', 'oc.lazyLoad', 'ui.bootstrap'])
+    angular.module('ssportalapp', ['ui.router', 'oc.lazyLoad'])
         .config(function($stateProvider, $urlRouterProvider, $locationProvider) {
             $stateProvider
                 .state('home', {
