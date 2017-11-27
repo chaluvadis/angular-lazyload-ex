@@ -13,7 +13,32 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="container">
-                    <div ui-view></div>
+                    <uib-tabset active="activeJustified" justified="true">
+                        <uib-tab index="0">
+                            <uib-tab-heading>
+                                Introduction
+                            </uib-tab-heading>
+                            <div data-ng-include="'../Introduction/introduction.html'"></div>
+                        </uib-tab>
+                        <uib-tab index="1" heading="SJ">
+                            <uib-tab-heading>
+                                Profiles
+                            </uib-tab-heading>
+                            <div data-ng-include="'../Profiles/profile.html'"></div>
+                        </uib-tab>
+                        <uib-tab index="2">
+                            <uib-tab-heading>
+                                Contacts
+                            </uib-tab-heading>
+                            <div data-ng-include="'../Contacts/contact.html'"></div>
+                        </uib-tab>
+                        <uib-tab index="3">
+                            <uib-tab-heading>
+                                Events
+                            </uib-tab-heading>
+                            <div data-ng-include="'../Calendar/calendar.html'"></div>
+                        </uib-tab>
+                    </uib-tabset>
                 </div>
             </div>
         </div>
