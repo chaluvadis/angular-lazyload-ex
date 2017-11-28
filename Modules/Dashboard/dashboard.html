@@ -39,7 +39,7 @@
                     <tbody>
                         <tr data-ng-repeat="a in ctrl.assignments">
                             <td>
-                                <a href="javascript:void(0);">
+                                <a data-ng-click="ctrl.redirectToSiteDetails(a.id)" href="javascript:void(0);">
                                     {{a.id}}
                                 </a>
                             </td>

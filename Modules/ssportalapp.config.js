@@ -1,5 +1,5 @@
 (function() {
-    angular.module('ssportalapp', ['ui.router', 'oc.lazyLoad'])
+    angular.module('ssportalapp', ['ui.router', 'oc.lazyLoad', 'ui.bootstrap'])
         .config(function($stateProvider, $urlRouterProvider, $locationProvider) {
             $stateProvider
                 .state('home', {
@@ -11,7 +11,10 @@
                         loadDashBoardFiles: ['$ocLazyLoad', '$injector', function($ocLazyLoad, $injector) {
                             console.log('loadFiles');
                             return $ocLazyLoad
-                                .load(['../Modules/Dashboard/dashboard.css', '../Modules/Dashboard/dashboard.factory.js', '../Modules/Dashboard/dashboard.ctrl.js'])
+                                .load(['../Modules/Dashboard/dashboard.css',
+                                    '../Modules/Dashboard/dashboard.factory.js',
+                                    '../Modules/Dashboard/dashboard.ctrl.js'
+                                ])
                         }],
                         loadAssignments: ['loadDashBoardFiles', '$injector', function(loadFiles, $injector) {
                             var factory = $injector.get('dashboardFactory');
@@ -26,12 +29,16 @@
                     controllerAs: 'ctrl',
                     resolve: {
                         loadSiteDetailFiles: ['$ocLazyLoad', '$injector', function($ocLazyLoad, $injector) {
-                            console.log('loadFiles');
                             return $ocLazyLoad
-                                .load(['../Modules/SiteDetails/sitedetails.css', '../Modules/SiteDetails/sitedetails.factory.js', '../Modules/SiteDetails/sitedetails.ctrl.js'])
+                                .load(['../Modules/SiteDetails/sitedetails.css',
+                                    '../Modules/SiteDetails/sitedetails.factory.js',
+                                    '../Modules/SiteDetails/sitedetails.ctrl.js'
+                                ])
                         }],
-                        loadSiteDetails: ['loadSiteDetailFiles', '$injector', function(loadFiles, $injector) {
+                        loadSiteDetails: ['loadSiteDetailFiles', '$injector', '$stateParams', function(loadFiles, $injector, $stateParams) {
                             var factory = $injector.get('sitedetailsFactory');
+                            var siteid = $stateParams.id;
+                            factory.setSiteId(siteid);
                             return factory.getSiteDetails();
                         }]
                     }

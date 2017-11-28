@@ -2,18 +2,22 @@
     <div class="col-md-12">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="site-clientname">{{ctrl.clientname}}</h3>
+                <h3 class="site-clientname">{{ctrl.sitedetails.clientname}}</h3>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <h5 class="site-job">{{ctrl.job}}</h5>
+                <h5 class="site-job">{{ctrl.sitedetails.job}}</h5>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
                 <div class="container">
-                  
+                    <uib-tabset active="active">
+                        <uib-tab index="tab.tabid" ng-repeat="tab in ctrl.sitedetails.tabs" heading="{{tab.title}}">
+                            <div data-ng-include="tab.content"></div>
+                        </uib-tab>
+                    </uib-tabset>
                 </div>
             </div>
         </div>

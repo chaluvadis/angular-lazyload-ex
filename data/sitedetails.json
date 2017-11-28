@@ -5,14 +5,17 @@
             "assignmentguid": "2acc0ee9-7ede-43f2-8aeb-6c92dfe44d49",
             "questassignmentid": "58768-285",
             "isActive": true,
+            "job": "CFO",
             "tabs": [{
                     "tabid": 100,
                     "title": "introduction",
+                    "content": "Modules/Introduction/introduction.html",
                     "childtabs": []
                 },
                 {
                     "tabid": 200,
                     "title": "contacts",
+                    "content": "Modules/Contacts/contact.html",
                     "childtabs": [
                         "profile",
                         "external"
@@ -21,6 +24,7 @@
                 {
                     "tabid": 300,
                     "title": "profiles",
+                    "content": "Modules/Profiles/profile.html",
                     "childtabs": [
                         "internal",
                         "quest"
@@ -29,6 +33,7 @@
                 {
                     "tabid": 400,
                     "title": "events",
+                    "content": "Modules/Calendar/calendar.html",
                     "childtabs": []
                 }
             ]
@@ -39,6 +44,7 @@
             "assignmentguid": "a369001e-e5eb-4a8f-91b9-683a44c3b6d0",
             "questassignmentid": "84877-422",
             "isActive": true,
+            "job": "CSO",
             "tabs": [{
                     "tabid": 100,
                     "title": "introduction",
